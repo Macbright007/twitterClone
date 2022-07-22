@@ -1,0 +1,72 @@
+.leftside-container{
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    display: grid;
+    width: 15%;
+    position: fixed;
+    top: 0;
+   
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    margin: 15px 20px 0px;
+} 
+
+.sidebar-icons{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.sidebar-icons > a{
+    margin: 30px 26px  12px 26px;
+    font-size: 1.7rem;
+}
+/* .sidebar-icons > a span {
+    background-color: #56b4f4;
+    height: 1.2rem;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.chat span{
+    background-color: #56b4f4;
+    height: 1.5rem;
+    padding: 10px;
+    border-radius: 100%;
+    
+} */
+.sidebar-icons a:first-child{
+    margin-top: 2rem;
+}
+.sidebar-icons > a:hover{
+    cursor: pointer;
+    border-radius: 100%;
+}
+.footerImage{
+    border: 2px solid rgb(14, 14, 14);
+    border-radius: 100%;
+    width: 40px;
+    height: 2.3rem;
+    object-fit: cover;
+    /* margin-left: auto;
+    margin-right: 15px; */
+    margin: 15px 20px 10px auto;
+    
+    
+}
+.footerImage:hover{
+    cursor: pointer;
+    border-radius: 100%;
+
+}
+.footerImage > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    
+}

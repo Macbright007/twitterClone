@@ -1,0 +1,35 @@
+.card-container{
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    width: 100%;
+    display: flex;
+}
+.card-container img{
+    height: 3rem;
+    border-radius: 100%;
+    margin: 10px;
+}
+/* .tweet-content{
+    border: 2px solid red;
+} */
+.tweet-content p{
+    margin-top: -10px;
+    width: 97%;
+    padding: 4px;
+}
+.content-head{
+    display: flex;
+    margin-top: -20px;
+    justify-content: space-between;
+}
+.user-details{
+    display: flex;
+}
+.user-details h5{
+    margin-top: 30px;
+    color: gray;
+}
+.user-details h2{
+    font-size: 16px;
+    margin-top: 27px;
+}
+
