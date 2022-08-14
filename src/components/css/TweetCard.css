@@ -1,7 +1,16 @@
 .card-container{
     border: 1px solid rgba(128, 128, 128, 0.24);
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
     width: 100%;
     display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.card-container:hover{
+    background-color: rgba(185, 183, 183, 0.1);
+    cursor: pointer;
 }
 .card-container img{
     height: 3rem;
@@ -14,7 +23,6 @@
 .tweet-content p{
     margin-top: -10px;
     width: 97%;
-    padding: 4px;
 }
 .content-head{
     display: flex;

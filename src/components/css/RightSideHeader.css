@@ -2,14 +2,15 @@
     height: 10vh;
     position: sticky;
     top: 0;
+    background-color: #fff;
 }
 
 .search-header{
-    border: 2px solid #dee5e7;
-    background-color: #dee5e7;
+    border: 2px solid #f7f9f9;
+    background-color: #f2f7f7;
     height: 7vh;
     width: 100%;
-    max-width: 420px;
+    max-width: 390px;
     margin-left: 40px;
     margin-top: 10px;
     border-radius: 25px;

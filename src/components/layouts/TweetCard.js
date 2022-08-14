@@ -19,10 +19,10 @@ const TweetCard = ({ key, full_name, user_name, img, content }) => {
 
         <p>{content}</p>
         <div className="content-footer">
-          <BsChat style={{color: "gray", marginRight: 100, fontSize: 20}}/>
-          <AiOutlineRetweet style={{color: "gray", marginRight: 100, fontSize: 20}}/>
-          <MdOutlineFavoriteBorder style={{color: "gray", marginRight: 100, fontSize: 20}}/>
-          <MdIosShare style={{color: "gray", marginRight: 100, fontSize: 20}}/>
+          <BsChat style={{color: "gray", marginRight: 90, fontSize: 20}}/>
+          <AiOutlineRetweet style={{color: "gray", marginRight: 90, fontSize: 20}}/>
+          <MdOutlineFavoriteBorder style={{color: "gray", marginRight: 90, fontSize: 20}}/>
+          <MdIosShare style={{color: "gray", marginRight: 90, fontSize: 20}}/>
         </div>
       </div>
     </div>
